@@ -4,7 +4,7 @@ Vessel trajectories in coastal waters, while still constrained by shipping lanes
 
 #### Data ####
 
-Data is available from [http://marinecadastre.gov/ais/](MarineCadastre.gov).
+Data is available from [MarineCadastre.gov](http://marinecadastre.gov/ais/).
 
 #### Techniques ####
 
@@ -12,4 +12,4 @@ We use hexagonal binning (hexbins) to visualize the density of voyages across a 
 
 #### Example ###
 
-An [https://rishuvaid.github.io/maritime-vis/ais-map.html](example) of voyages that pass near Boston in January 2011.
+An [example](https://rishuvaid.github.io/maritime-vis/ais-map.html) of voyages that pass near Boston in January 2011.
