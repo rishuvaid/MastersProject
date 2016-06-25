@@ -12,4 +12,4 @@ We use hexagonal binning (hexbins) to visualize the density of voyages across a 
 
 #### Example ###
 
-An example of the Boston Harbor will be available.
+An [https://rishuvaid.github.io/maritime-vis/ais-map.html](example) of voyages that pass near Boston in January 2011.
