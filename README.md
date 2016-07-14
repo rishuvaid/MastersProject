@@ -12,4 +12,6 @@ We use hexagonal binning (hexbins) to visualize the density of voyages across a 
 
 #### Example ###
 
-An [example](https://rishuvaid.github.io/maritime-vis/ais-map.html) of voyages that pass near Boston in January 2011.
+An [example](https://rishuvaid.github.io/maritime-vis/ais-tri-map.html) of voyages that pass near Boston in January 2011. When the mouse is dragged over one of the six triangles that the hexagon is divided into, the voyages crossing the corresponding edge into the hexagon are shown. Thus, moving across the edge shows voyages in the opposite direction.
+
+An [older example](https://rishuvaid.github.io/maritime-vis/ais-map.html) of voyages that pass near Boston in January 2011.
