@@ -8,10 +8,11 @@ Data is available from [MarineCadastre.gov](http://marinecadastre.gov/ais/).
 
 #### Techniques ####
 
-We use hexagonal binning (hexbins) to visualize the density of voyages across a region as on overview. In addition, we display individual voyages when the mouse enters a specific hexagon.
+We use hexagonal binning (hexbins) to visualize the density of voyages across a region as on overview. In addition, we allow a user to interactively highlight individual voyages by hovering over a specific hexagon. As this does not provide information about direction, we also present a technique to subdivide each hexagon into six triangles, and upon hover over a triangle, highlight voyages that locally have the same direction as the triangle. Since the triangles are equilateral, we add an arrow to make clear the direction being shown.
 
 #### Example ###
 
-An [example](https://rishuvaid.github.io/maritime-vis/ais-tri-map.html) of voyages that pass near Boston in January 2011. When the mouse is dragged over one of the six triangles that the hexagon is divided into, the voyages crossing the corresponding edge into the hexagon are shown. Thus, moving across the edge shows voyages in the opposite direction.
+An [example](https://rishuvaid.github.io/maritime-vis/ais-tri-map.html) of voyages that pass near Boston in January 2011. When the mouse is dragged over one of the six triangles that the hexagon is divided into, the voyages crossing the corresponding edge into the hexagon are shown. Thus, moving across the edge shows voyages in the opposite direction. This can be compared with an [example](https://rishuvaid.github.io/maritime-vis/ais-hex-map.html) where all voayges passing through a hexagon are highlighted, regardless of direction.
 
-An [older example](https://rishuvaid.github.io/maritime-vis/ais-map.html) of voyages that pass near Boston in January 2011.
+ * [Hexagons](https://rishuvaid.github.io/maritime-vis/ais-hex-map.html)
+ * [Directional Triangles](https://rishuvaid.github.io/maritime-vis/ais-tri-map.html)
